@@ -6,12 +6,12 @@ set -e
 # =============================
 # Variables - Update these!
 # =============================
-SUBSCRIPTION_ID="yoursubid"
-TENANT_ID="youtenantid"
-APP_NAME="github-workload-identity-app"
-FEDERATED_CREDENTIALS_NAME="github-actions-federated-credentials"
-GITHUB_ORG="githuborg"
-GITHUB_REPO="forkedreponame"
+SUBSCRIPTION_ID="d5403e97-30b1-4ff7-99c5-5e6a158d92f0"
+TENANT_ID="b0beee0b-d997-40e0-800b-c586956e5b18"
+APP_NAME="pmmogithubactions"
+FEDERATED_CREDENTIALS_NAME="pmmogithubactions"
+GITHUB_ORG="mmontana-bag"
+GITHUB_REPO="github-action-workshop-kbfork"
 BRANCH="main"  # or specify another branch if needed
 
 # =============================
@@ -63,5 +63,3 @@ echo "AZURE_TENANT_ID: $TENANT_ID"
 echo "AZURE_SUBSCRIPTION_ID: $SUBSCRIPTION_ID"
 echo "==========================================="
 
-# Exit script
-exit 0
